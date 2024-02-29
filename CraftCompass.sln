@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftCompass_REST_Service", "CraftCompass-REST-Service\CraftCompass_REST_Service.csproj", "{BDF33043-7EB2-4C7A-AEB0-7A3364767236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{C49C0CF2-7276-4899-B969-3F0821E653E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FE069D24-88EE-4B43-8D4A-861535CCBBA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{9B27B4C3-41B2-40FD-B2C5-3137695A9CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftCompass.Test", "CraftCompass.Test\CraftCompass.Test.csproj", "{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF33043-7EB2-4C7A-AEB0-7A3364767236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF33043-7EB2-4C7A-AEB0-7A3364767236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF33043-7EB2-4C7A-AEB0-7A3364767236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF33043-7EB2-4C7A-AEB0-7A3364767236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49C0CF2-7276-4899-B969-3F0821E653E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49C0CF2-7276-4899-B969-3F0821E653E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49C0CF2-7276-4899-B969-3F0821E653E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49C0CF2-7276-4899-B969-3F0821E653E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE069D24-88EE-4B43-8D4A-861535CCBBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE069D24-88EE-4B43-8D4A-861535CCBBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE069D24-88EE-4B43-8D4A-861535CCBBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE069D24-88EE-4B43-8D4A-861535CCBBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B27B4C3-41B2-40FD-B2C5-3137695A9CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B27B4C3-41B2-40FD-B2C5-3137695A9CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B27B4C3-41B2-40FD-B2C5-3137695A9CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B27B4C3-41B2-40FD-B2C5-3137695A9CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
