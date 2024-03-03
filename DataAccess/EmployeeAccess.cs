@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Model;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -12,19 +13,20 @@ using System.Threading.Tasks;
 
 namespace DataAccess {
     public class EmployeeAccess : ICRUDAccess<Employee> {
-
-        private readonly string? _connectionString;
+        private readonly string _connectionString;
         private readonly ILogger<ICRUDAccess<Employee>> _logger;
 
+        // Denne konstruktør bruges i produktionskode
         public EmployeeAccess(IConfiguration configuration, ILogger<ICRUDAccess<Employee>> logger = null) {
             _connectionString = configuration.GetConnectionString("DatabaseConnection");
-            this._logger = logger;
+            _logger = logger;
         }
 
-        // Test
-        public EmployeeAccess(string  connectionString) {
+        // Denne konstruktør bruges i testkode, hvor forbindelsesstrengen gives direkte
+        public EmployeeAccess(string connectionString) {
             _connectionString = connectionString;
         }
+
 
         public async Task<int> Create(Employee entity) {
             int insertedEmployeeId = -1;
@@ -56,9 +58,19 @@ namespace DataAccess {
             throw new NotImplementedException();
         }
 
-        public Task<Employee> Get(int id) {
-            throw new NotImplementedException();
+        public async Task<Employee> Get(int id) {
+            using (var conn = new SqlConnection(_connectionString)) {
+                conn.Open();
+                var sql = @"SELECT * FROM Employees WHERE EmployeeId = @Id";
+                try {
+                    return await conn.QuerySingleOrDefaultAsync<Employee>(sql, new { Id = id });
+                } catch (Exception ex) {
+                    _logger?.LogError(ex, "Error getting employee with id {Id}", id);
+                    throw;
+                }
+            }
         }
+
 
         public async Task<List<Employee>> GetAll() {
             List<Employee>? foundEmployee;
