@@ -3,13 +3,8 @@ using DataAccess.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Model;
-using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DataAccess {
     public class EmployeeAccess : ICRUDAccess<Employee> {
@@ -54,8 +49,16 @@ namespace DataAccess {
             }
         }
 
-        public Task<bool> Delete(int id) {
-            throw new NotImplementedException();
+
+        public async Task<bool> Delete(int id) {
+            int rowsAffected = -1;
+            using (SqlConnection con = new SqlConnection(_connectionString)) {
+                con.Open();
+                var sql = @"DELETE FROM Employees WHERE EmployeeId = @id
+";
+                rowsAffected = await con.ExecuteAsync(sql, new { id });
+            }
+            return rowsAffected > 0;
         }
 
         public async Task<Employee> Get(int id) {
@@ -97,5 +100,17 @@ namespace DataAccess {
         public Task<bool> Update(int id, Employee entity) {
             throw new NotImplementedException();
         }
+
+        // For test tear down
+        public async Task<bool> DeleteAll() {
+            using (var conn = new SqlConnection(_connectionString)) {
+                conn.Open();
+                var sql = @"DELETE FROM Employees";
+                var rowsAffected = await conn.ExecuteAsync(sql);
+                return rowsAffected > 0;
+            }
+        }
     }
+
 }
+

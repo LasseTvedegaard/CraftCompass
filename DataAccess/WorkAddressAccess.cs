@@ -23,6 +23,10 @@ namespace DataAccess {
             throw new NotImplementedException();
         }
 
+        public Task<bool> DeleteAll() {
+            throw new NotImplementedException();
+        }
+
         public Task<WorkAddress> Get(int id) {
             throw new NotImplementedException();
         }
