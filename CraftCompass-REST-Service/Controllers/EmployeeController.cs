@@ -24,7 +24,7 @@ namespace CraftPro_REST_Service.Controllers {
                 foundResult = StatusCode(500);
             } else {
                 employee.EmployeeId = insertedId;
-                foundResult = CreatedAtAction(nameof(Get), new {id = insertedId}, employee);
+                foundResult = CreatedAtAction(nameof(Get), new { id = insertedId }, employee);
             }
             return foundResult;
         }
@@ -55,7 +55,6 @@ namespace CraftPro_REST_Service.Controllers {
             return foundResult;
         }
 
-        // DELETE api/<EmployeeController>/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id) {
             IActionResult result;
