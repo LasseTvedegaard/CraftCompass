@@ -97,8 +97,22 @@ namespace DataAccess {
             return foundEmployee;
         }
 
-        public Task<bool> Update(int id, Employee entity) {
-            throw new NotImplementedException();
+        public async Task<bool> Update(int id, Employee employeeToUpdate) {
+            int rowsAffected = -1;
+            using (SqlConnection conn = new SqlConnection(_connectionString)) {
+                conn.Open();
+                var sql = @"UPDATE employees
+                            SET
+                                name = @name,
+                                phone = @phone,
+                                email = @email,
+                                role = @role
+                            WHERE
+                                employeeId = @employeeId";
+
+                rowsAffected = await conn.ExecuteAsync(sql, employeeToUpdate);
+            }
+            return rowsAffected > 0;
         }
 
         // For test tear down

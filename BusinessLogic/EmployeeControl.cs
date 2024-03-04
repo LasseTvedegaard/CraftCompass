@@ -21,8 +21,10 @@ namespace BusinessLogic {
             return insertedId;
         }
 
-        public Task<bool> Delete(int id) {
-            throw new NotImplementedException();
+        public async Task<bool> Delete(int id) {
+            bool isDeleted;
+            isDeleted = await _employeeAccess.Delete(id);
+            return isDeleted;
         }
 
         public async Task<List<Employee>> GetAll() {
@@ -35,8 +37,10 @@ namespace BusinessLogic {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Update(int id, Employee entity) {
-            throw new NotImplementedException();
+        public async Task<bool> Update(int id, Employee entity) {
+            bool isUpdated;
+            isUpdated = await _employeeAccess.Update(id, entity);
+            return isUpdated;
         }
     }
 }
