@@ -1,0 +1,35 @@
+<script src="https://unpkg.com/vue@3"></script>
+
+<div id="app">
+    <h2>{{ title }}</h2>
+    <p v-for="note in notes" :key="note.id">
+        <b>{{ note.Employee }}</b>
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+  const { createApp, ref } = Vue;
+  const API_URL = "https://localhost:7210/";
+  createApp({
+    data() {
+      return {
+        title: "CraftCompass",
+        notes: []
+      }
+    },
+    methods: {
+      async refreshData() {
+        axios.get(API_URL + "api/Employee").then(
+        (response) => {
+            this.notes = response.data;
+          }
+        )
+      }
+    },
+    mounted() {
+      this.refreshData();
+    }
+  }).mount('#app')
+</script>
