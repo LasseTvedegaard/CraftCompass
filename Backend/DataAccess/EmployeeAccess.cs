@@ -5,7 +5,6 @@ using Microsoft.Extensions.Logging;
 using Model;
 using System.Data.SqlClient;
 
-
 namespace DataAccess {
     public class EmployeeAccess : ICRUDAccess<Employee> {
         private readonly string _connectionString;
@@ -21,7 +20,6 @@ namespace DataAccess {
         public EmployeeAccess(string connectionString) {
             _connectionString = connectionString;
         }
-
 
         public async Task<int> Create(Employee entity) {
             int insertedEmployeeId = -1;
@@ -49,7 +47,6 @@ namespace DataAccess {
             }
         }
 
-
         public async Task<bool> Delete(int id) {
             int rowsAffected = -1;
             using (SqlConnection con = new SqlConnection(_connectionString)) {
@@ -73,7 +70,6 @@ namespace DataAccess {
                 }
             }
         }
-
 
         public async Task<List<Employee>> GetAll() {
             List<Employee>? foundEmployee;

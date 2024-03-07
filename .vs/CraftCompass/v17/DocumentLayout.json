@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repos\\CraftCompass\\CraftCompass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF33043-7EB2-4C7A-AEB0-7A3364767236}|CraftCompass-REST-Service\\CraftCompass_REST_Service.csproj|C:\\repos\\CraftCompass\\CraftCompass\\craftcompass-rest-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BDF33043-7EB2-4C7A-AEB0-7A3364767236}|CraftCompass-REST-Service\\CraftCompass_REST_Service.csproj|solutionrelative:craftcompass-rest-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE069D24-88EE-4B43-8D4A-861535CCBBA4}|DataAccess\\DataAccess.csproj|c:\\repos\\craftcompass\\craftcompass\\dataaccess\\employeeaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE069D24-88EE-4B43-8D4A-861535CCBBA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\employeeaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF33043-7EB2-4C7A-AEB0-7A3364767236}|CraftCompass-REST-Service\\CraftCompass_REST_Service.csproj|C:\\repos\\CraftCompass\\CraftCompass\\craftcompass-rest-service\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF33043-7EB2-4C7A-AEB0-7A3364767236}|CraftCompass-REST-Service\\CraftCompass_REST_Service.csproj|solutionrelative:craftcompass-rest-service\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}|CraftCompass.Test\\CraftCompass.Test.csproj|C:\\repos\\CraftCompass\\CraftCompass\\craftcompass.test\\controller\\integrationtestemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCA2278-C7EC-4FC1-B2B5-CF544899682E}|CraftCompass.Test\\CraftCompass.Test.csproj|solutionrelative:craftcompass.test\\controller\\integrationtestemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49C0CF2-7276-4899-B969-3F0821E653E1}|BusinessLogic\\BusinessLogic.csproj|C:\\repos\\CraftCompass\\CraftCompass\\businesslogic\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C49C0CF2-7276-4899-B969-3F0821E653E1}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\employeecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}|Model\\Model.csproj|C:\\repos\\CraftCompass\\CraftCompass\\model\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F14E26E-4B4F-423A-AD65-73FDDF51B58B}|Model\\Model.csproj|solutionrelative:model\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE069D24-88EE-4B43-8D4A-861535CCBBA4}|DataAccess\\DataAccess.csproj|C:\\repos\\CraftCompass\\CraftCompass\\dataaccess\\caseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE069D24-88EE-4B43-8D4A-861535CCBBA4}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\caseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF33043-7EB2-4C7A-AEB0-7A3364767236}|CraftCompass-REST-Service\\CraftCompass_REST_Service.csproj|C:\\repos\\CraftCompass\\CraftCompass\\craftcompass-rest-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF33043-7EB2-4C7A-AEB0-7A3364767236}|CraftCompass-REST-Service\\CraftCompass_REST_Service.csproj|solutionrelative:craftcompass-rest-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegrationTestEmployee.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass.Test\\Controller\\IntegrationTestEmployee.cs",
+              "RelativeDocumentMoniker": "CraftCompass.Test\\Controller\\IntegrationTestEmployee.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass.Test\\Controller\\IntegrationTestEmployee.cs",
+              "RelativeToolTip": "CraftCompass.Test\\Controller\\IntegrationTestEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:32:45.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Case.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\Model\\Case.cs",
+              "RelativeDocumentMoniker": "Model\\Case.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\Model\\Case.cs",
+              "RelativeToolTip": "Model\\Case.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:30:23.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CaseAccess.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\DataAccess\\CaseAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\CaseAccess.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\DataAccess\\CaseAccess.cs",
+              "RelativeToolTip": "DataAccess\\CaseAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:30:15.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass-REST-Service\\appsettings.json",
+              "RelativeDocumentMoniker": "CraftCompass-REST-Service\\appsettings.json",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass-REST-Service\\appsettings.json",
+              "RelativeToolTip": "CraftCompass-REST-Service\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-05T21:03:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass-REST-Service\\Program.cs",
+              "RelativeDocumentMoniker": "CraftCompass-REST-Service\\Program.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass-REST-Service\\Program.cs",
+              "RelativeToolTip": "CraftCompass-REST-Service\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:07:08.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass-REST-Service\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CraftCompass-REST-Service\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\CraftCompass-REST-Service\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CraftCompass-REST-Service\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:43:20.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeControl.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\BusinessLogic\\EmployeeControl.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\EmployeeControl.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\BusinessLogic\\EmployeeControl.cs",
+              "RelativeToolTip": "BusinessLogic\\EmployeeControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:40:45.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeAccess.cs",
+              "DocumentMoniker": "C:\\repos\\CraftCompass\\CraftCompass\\DataAccess\\EmployeeAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\EmployeeAccess.cs",
+              "ToolTip": "C:\\repos\\CraftCompass\\CraftCompass\\DataAccess\\EmployeeAccess.cs",
+              "RelativeToolTip": "DataAccess\\EmployeeAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:36:41.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
